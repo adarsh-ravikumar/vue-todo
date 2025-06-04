@@ -16,9 +16,9 @@ onMounted(async () => {
   // the quote component causes it to run whenever todo
   // is navigated to which is not the desired behaviour
   const quote = useQuoteStore()
-  let quoteRes = await axios.get('https://zenquotes.io/api/random')
-  quote.author = quoteRes.data.a
-  quote.quote = quoteRes.data.q
+  let quoteRes = await axios.get('https://api.breakingbadquotes.xyz/v1/quotes')
+  quote.author = quoteRes.data[0].author
+  quote.quote = quoteRes.data[0].quote
 })
 </script>
 

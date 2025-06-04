@@ -18,6 +18,8 @@
     <img src="@/assets/ts.png" alt="vue">
     <img src="@/assets/scss.png" alt="vue">
 </div>
+
+<p>PS: I had to resort to breaking bad quotes because no other API would work due to either CORS or expired SSL certs</p>
 </template>
 
 <style scoped lang="scss">
