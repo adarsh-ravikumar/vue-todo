@@ -1,6 +1,6 @@
 <template>
 <p>
-    This is a simple app built in <a href="https://vuejs.org/" target="_blank">Vue.js</a> and bundled with <a href="https://vite.dev/" target="_blank">Vite</a> to understand the basic workings of the framework. Based on design by <a href="https://dribbble.com/shots/24425951-Clean-Minimal-Todo-List-Design">Arkan Naufal</a>  on Dribbble. Responsiveness was not implemented. The features explored using this mini project are
+    This is a simple app built in <a href="https://vuejs.org/" target="_blank">Vue.js</a> and bundled with <a href="https://vite.dev/" target="_blank">Vite</a> to understand the fundamentals of the framework. Based on design by <a href="https://dribbble.com/shots/24425951-Clean-Minimal-Todo-List-Design">Arkan Naufal</a>  on Dribbble. Responsiveness was not implemented. The features explored using this mini project are
     <ul>
         <li>Consuming external API</li>
         <li>Routing</li>
